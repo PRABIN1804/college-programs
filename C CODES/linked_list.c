@@ -279,7 +279,6 @@ void main()
 
     printf("List after sorting the data: ");
     printList();
-
     reverse(&head);
     printf("\nList after reversing the data: ");
     printList();
