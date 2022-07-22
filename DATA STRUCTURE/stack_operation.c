@@ -32,4 +32,4 @@ void show(){
     for(j=0; j<10; j++){
         stack[j]!=0? printf("\n%d",stack[j]):printf("");
     }
-}
+}  
