@@ -20,7 +20,7 @@ class add
     add(int a,int b);
     add(int a,float d,double e);
 };
-add::add(int x,inty){
+add::add(int x,int y){
     a=x;
     b=y;
 }
