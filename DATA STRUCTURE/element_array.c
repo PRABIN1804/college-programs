@@ -1,19 +1,25 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 void main()
 {
-    int i,j;
+
     int a[5];
-    printf("\n enter the element of the array");
-    for(i=0;i<5;i++)
+    int i = 0;
+    int j=0;
+    printf("\n enter the element of the array \n");
+    do
     {
-    scanf("%d",&a[i]);
-    }
+         printf("enter the element %d=", i);
+         scanf("%d", &a[i]);
+        i++;
+    } while (i < 5);
+    
     printf("\n array element are:\n");
     {
-    for(i=0;i<5;i++)
-    {
-    printf("\n a[%d]=%d",i,a[i]);
-    }
+        do
+        { printf("\n a[%d]=%d", j, a[j]);
+            j++;
+        } while (j < 5);
+
     }
 }
