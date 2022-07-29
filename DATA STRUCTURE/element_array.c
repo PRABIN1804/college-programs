@@ -11,7 +11,7 @@ void main()
     {
          printf("enter the element %d=", i);
          scanf("%d", &a[i]);
-        i++;
+        i++
     } while (i < 5);
     
     printf("\n array element are:\n");
