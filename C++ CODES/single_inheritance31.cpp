@@ -4,46 +4,43 @@ class worker
 {
     public:
     int age;
-    char name[10];
+    char name[20];
     void get();
+    void show();
 };
 void worker::get()
 {
-    cout<<"your name please"<<endl;
+    cout << " enter the name of the worker:"<<endl;
     cin>>name;
-    cout<<"your age please"<<endl;
+    cout << " enter the age of the worker:"<<endl;
     cin>>age;
 }
 void worker::show()
 {
-    cout<<"in my name is:"<<name"in my age is:"<<age;
+    cout <<"the name of the worker is "<<name<< "and the is "<<age<<endl;
 }
-class manager:pubilc worker
+class manager : public worker
 {
-    
-    int now;
-    public:
-    void get();
-    void show();
+int num;
+public:
+void get();
+void show();
 };
 void manager::get()
 {
     worker::get();
-    cout <<"no of workers under you"<<endl;
-    cin>>no;
-    cin>>name>>age;
+    cout<<" enter the number of the worker:"<<endl;
+    cin>>num;
 }
 void manager::show()
 {
     worker::show();
-    cout <<"no of workers under me"<<endl;
-    cin>>no;
+    cout<< " the number of worker under me is:"<<num<<endl;
 }
 int main()
 {
-    worker W1;
-    manager M1;
-    M1.get();
-    M1.show();
+    manager m1;
+    m1.get();
+    m1.show();
     return 0;
 }
