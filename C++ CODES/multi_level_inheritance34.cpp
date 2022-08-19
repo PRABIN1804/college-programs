@@ -17,7 +17,7 @@ void worker::get()
 }
 void worker::show()
 {
-    cout <<"the name of the worker is :"<<name<< "  and the is "<<age<<endl;
+    cout <<"the name of the worker is :"<<name<< " and the is "<<age<<endl;
 }
 class manager : public worker
 {
