@@ -17,7 +17,7 @@ void worker::get()
 }
 void worker::show()
 {
-    cout <<"the name of the worker is "<<name<< "and the is "<<age<<endl;
+    cout <<"the name of the worker is :"<<name<< "  and the is "<<age<<endl;
 }
 class manager : public worker
 {
@@ -37,3 +37,28 @@ void manager::show(){
     cout<< " the number of worker under me is:"<<num<<endl;
 }
 class ceo: public manager
+{
+    int num2;
+
+    public:
+    void get();
+    void show();
+};
+void ceo::get()
+{
+    manager::get();
+    cout <<"the number of manger under you:"<<endl;
+    cin>>num2;
+}
+void ceo::show()
+{
+    manager::show();
+    cout <<"the number of worker under me is:"<<num2;
+}
+int main()
+{
+    ceo c1;
+    c1.get();
+    c1.show();
+    return 0;
+}

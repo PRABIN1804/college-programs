@@ -2,7 +2,7 @@
 using namespace std;
 class worker
 {
-    public:
+    protected:
     int age;
     char name[20];
     void get();
