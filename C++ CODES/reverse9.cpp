@@ -18,3 +18,20 @@ int main() {
 
   return 0;
 }
+int sum(){
+int n,r,s=0;
+while(n>0){
+    r=n%10;
+    n=n/10;
+    s=s+r;
+}
+cout<<"the sum is:"<<endl;
+cin>>s;
+}
+int main()
+{
+int n;
+reverse();
+sum();
+return 0;
+}
