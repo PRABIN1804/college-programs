@@ -1,13 +1,22 @@
+import java.util.Scanner;
+
 public class swapping 
  {
-    // palincrome
-    //armstrong
-    //generate a number
-    //reverse a nymber
-    //convert a number to word
+
     public static void main(String[] args) {
-        int x,y,t;
-        
+        int a,b,temp;
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter a first number:");
+        a=scan.nextInt();
+        System.out.println("Enter a second number:");
+        b=scan.nextInt();
+
+        temp=a;
+        a=b;
+        b=temp;
+
+        System.out.println("\n a="+a);
+        System.out.println("b ="+b);
     }
 
 }
