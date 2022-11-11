@@ -6,7 +6,7 @@ public class Reverse
         int num,rem,rev=0;
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number:");
-        num = scan.nextInt();
+        num =scan.nextInt();
 
         while(num!=0)
         {
