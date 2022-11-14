@@ -17,6 +17,7 @@ public class swapping
 
         System.out.println("\n a="+a);
         System.out.println("b ="+b);
+        scan.close();
     }
 
 }

@@ -19,6 +19,7 @@
         System.out.println("\nEquivalent Binary Value =");
          for(i=(i-1); i>=0; i--)
          System.out.println(binary[i]);
+         scan.close();
  }
 
 }

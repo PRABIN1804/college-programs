@@ -12,7 +12,7 @@ public class multifloatnumbers
 
         float product = flt1*flt2;
         System.out.println("Product of given floating point numbers::" + product);
-
+        sc.close();
 
     }
 }

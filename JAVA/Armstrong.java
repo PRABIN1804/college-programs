@@ -20,5 +20,6 @@ public class Armstrong
         System.out.println(a + "is an armstrong number.");
         else
         System.out.println(a+"is not a armstrong numbver.");
+        scan.close();
     }
 }
