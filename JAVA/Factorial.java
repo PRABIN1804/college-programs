@@ -4,8 +4,8 @@ public class Factorial {
 
     public static void main(String []args)
     {
-        int  factorial=1;
-        int i;
+        double  factorial=1;
+        double i;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
         int num = sc.nextInt();
