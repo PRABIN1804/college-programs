@@ -10,7 +10,6 @@ public class PrimeOrNot2
         int count=0;
         for(int i =2; i<=num/2; ++i)
     {
-        
         if (num % 1==0)
         {
             count++;
