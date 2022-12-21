@@ -6,15 +6,15 @@ public class Factorial {
     {
         double  factorial=1;
         double i;
-        Scanner in = new Scanner(System.in);
+        Scanner sc= new Scanner(System.in);
         System.out.println("Enter a number:");
-        int num = in.nextInt();
+        int num = sc.nextInt();
         for(i = 1; i <= num; ++i)
         {
             factorial *=i;
         }
 
         System.out.println("factorial of " +num+ " is "  +factorial);
-        in.close();
+        sc.close();
     }
 }
