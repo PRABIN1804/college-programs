@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATIVE CREW</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header::before {
+            background-image: url("computer.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            opacity: 0.3;
+        }
+
+        .navigation {
+            /* font-family: xyz; */
+            display: flex;
+            font-size: 20px;
+
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 344px;
+            /* font-family: xyz; */
+            display: flex;
+            flex-direction: column;
+            margin: 3px 230px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h3 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+            grid-gap: 5rem;
+            display: flexbox;
+            grid-template-areas: 'footer footer footer footer';
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home </li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Welcome To Creative Crew</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam, ut optio laudantium enim nulla
+            consequatur, ipsum quis expedita deserunt voluptates eius, numquam velit necessitatibus molestiae. Officia
+            doloremque perspiciatis labore.</p>
+    </section>
+    <footer>CREATIVE CREW @2023</footer>
+</body>
+
+</html>
