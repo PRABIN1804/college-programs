@@ -19,4 +19,3 @@ public class LeapYear {
       in.close();
   }
 }
-
