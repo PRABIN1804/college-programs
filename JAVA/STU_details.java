@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class STU_details 
 {
-    public static void main(String[] args) 
-    {
+    public static void main(String []args) {
+
         String Name;
         int Roll_No,Mark;
         Scanner sc=new Scanner(System.in);
@@ -20,3 +20,12 @@ public class STU_details
     sc.close();    
     }
 }
+
+/////
+// public class STU_details{
+// public static void main(String[] args) {
+//     student s[]=new Student[5];
+//     for(int i=0;i<5;i++)
+//     s[i]=new Student();
+// }
+// }
