@@ -12,5 +12,6 @@ public class Sum {
         Sum s = new Sum();
         System.out.println(s.Sum(10,20));
         System.out.println(s.Sum(100,200));
+
     }
 }
