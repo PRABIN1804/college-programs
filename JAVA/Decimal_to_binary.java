@@ -6,10 +6,10 @@
      {
      int decimal, i=0;
      int[] binary = new int [20];
-     Scanner read = new Scanner(System.in);
+     Scanner sc = new Scanner(System.in);
 
       System.out.println("Enter the decimal number:");
-      decimal = read.nextInt();
+      decimal = sc.nextInt();
        while(decimal != 0)
        {
          binary[i] = decimal%2;
@@ -19,7 +19,7 @@
         System.out.println("\nEquivalent Binary Value =");
         for(i=(i-1); i>=0; i--)
         System.out.println(binary[i]);
-        read.close();
+        sc.close();
  }
 
 }
