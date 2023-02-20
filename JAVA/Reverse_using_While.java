@@ -17,4 +17,4 @@ public class Reverse_using_While
         System.out.println("\n Reverse="+rev);
         scan.close();
     }
-}
+} 
