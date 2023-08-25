@@ -7,7 +7,7 @@ bool getParity(unsigned int n)
     {
     parity =! parity;
     n=n&(n-1);
-    }
+    } 
     return parity;
 }
 int main(){
