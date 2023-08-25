@@ -59,7 +59,7 @@ int main() {
 		for(i=0;i<(strlen(arr)/seg);i++){
 			cout<<"-----";	
 		}
-		cout<<endl;
+		cout<<endl; 
 		for(i=0;i<(strlen(arr)/seg);i++){
 			cout<<"  "<<lrc[i]<<"  ";	
 		}
